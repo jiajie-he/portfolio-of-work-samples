@@ -1,0 +1,218 @@
+:root {
+    --primary: #354259;
+    --secondary: #C2DED1;
+    --space: #F9F9F9;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--space);
+}
+
+header h1 {
+    font-size: 350%;
+    font-family: 'Pacifico', cursive;
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 30px;
+    text-align: center;
+}
+
+
+header nav ul {
+    padding: 15px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: var(--secondary);
+    font-size: 80%;
+}
+
+.hero-img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../images/jiajiehe.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero-img h2 {
+    background-color: var(--secondary);
+    padding: 5px 10px;
+    color: var(--primary);
+    font-size: 200%;
+    position: absolute;
+    bottom: 5px;
+}
+
+main {
+    line-height: 2;
+    color: var(--primary);
+    margin: 20px;
+}
+
+main h2 {
+    font-size: 255%;
+    margin-top: 20px;
+}
+
+hr {
+    border: 2px solid var(--primary);
+}
+
+main article p {
+    margin-top: 10px;
+    font-size: 120%;
+}
+
+.flex-box {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main section nav a {
+    font-size: 150%;
+    padding: 80px;
+    display: block;
+    position: relative;
+}
+
+#first-app {
+    background-image: url("../images/portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#second-app {
+    background-image: url("../images/coding.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#third-app {
+    background-image: url("../images/app.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#fourth-app {
+    background-image: url("../images/fullstack.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#fifth-app {
+    background-image: url("../images/dynamic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project {
+    border: var(--secondary) solid 5px;
+    margin: 15px 0;
+}
+
+main section nav h3 {
+    background-color: var(--secondary);
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+}
+
+.contact-list {
+    font-size: 110%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--primary);
+    padding: 5px;
+}
+
+footer h3 {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: var(--secondary);
+}
+
+@media screen and (min-width: 600px) {
+    header nav ul li a {
+        font-size: 110%;
+    }
+
+    .hero-img h2 {
+        right: 5px;
+    }
+
+    .flex-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 48%;
+        margin: 1%;
+    }
+
+    #first-box {
+        border: var(--secondary) solid 5px;
+        width: 100%;
+        height: 200px;
+    }
+
+    #first-app {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header nav {
+        position: relative;
+        width: 100%;
+        height: 100px;
+    }
+
+    header h1 {
+        position: absolute;
+        top: 10%;
+        font-size: 300%;
+        padding: 10px 15px 15px 15%;
+    }
+
+    header nav ul {
+        height: 100%;
+        justify-content: end;
+        align-items: center;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin-right: 25px;
+    }
+}
