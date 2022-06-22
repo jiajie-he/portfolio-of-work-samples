@@ -1,7 +1,8 @@
 # portfolio-of-work-samples
 
 ## About
-
+* I am excited to create a portfolio from scratch to showcase my skills and projects!
+* Skills used in this portfolio: flexbox, media queries, CSS variables, and more.
 
 ## Wireframing
 ![wireframing_061822](https://user-images.githubusercontent.com/105767623/175026628-0f4d2c09-5cbb-49a6-859b-0371ad2f1b59.png)
@@ -18,9 +19,11 @@
 
 ### CSS
 ![CSSCode-2022-06-22 at 2 27 01 AM](https://user-images.githubusercontent.com/105767623/175029778-35235d49-3405-4699-a5ef-b94c4ecfc9ed.png)
+
 ![CSS-2022-06-22 at 2 26 42 AM](https://user-images.githubusercontent.com/105767623/175029795-d633354a-a903-4be1-b264-4a7419dd7a94.png)
 * Added color and boarder
 * Moved sections around using postion absolute
 
 
 ## Deployed Application
+https://jiajie-he.github.io/portfolio-of-work-samples/
